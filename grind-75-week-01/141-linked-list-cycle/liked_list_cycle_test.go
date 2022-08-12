@@ -2,6 +2,7 @@ package linked_list_cycle
 
 import (
 	"github.com/stretchr/testify/assert"
+	. "leetcode/util"
 	"testing"
 )
 
