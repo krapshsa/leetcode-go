@@ -22,3 +22,11 @@ func (s *PartitionSuite) Test_1() {
 func (s *PartitionSuite) Test_2() {
 	assert.Equal(s.T(), false, canPartition([]int{1, 2, 3, 5}), "")
 }
+
+func (s *PartitionSuite) Test_3() {
+	assert.Equal(s.T(), true, canPartition([]int{3, 3, 3, 4, 5}), "")
+}
+
+func (s *PartitionSuite) Test_4() {
+	assert.Equal(s.T(), false, canPartition([]int{1, 2, 5}), "")
+}
